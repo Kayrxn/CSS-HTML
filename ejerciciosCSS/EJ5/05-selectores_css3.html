@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS3</title>
+
+<style>
+
+#tarea1 p[lang^="e"]{
+    color: red;
+}
+
+#tarea2 p[lang$="n"]{
+    color: red;
+}
+
+#tarea3 a[title*="pdf"] {
+    font-size: 30px;
+}
+
+#tarea4 a[title|="Enunciado"] {
+    font-size: 30px;
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+    <section id=tarea1>
+    <h1>Que empiecen por e</h1>
+    <p lang="es">Hola Mundo</p>
+    <p lang="en">Hellow world</p>
+    <p>Párrafo sin lang</p>
+    </section>
+
+</br>
+
+    <section id=tarea2>
+    <h1>Que empiecen por n</h1>
+    <p lang="es">Hola Mundo</p>
+    <p lang="en">Hellow world</p>
+    <p>Párrafo sin lang</p>
+    </section>
+
+</br>
+
+<section id=tarea3>
+<h1>Práctica 3</h1>
+<a href="pdf/Enunciado de la practica1.pdf" title="Enunciado en formato pdf de la práctica 1" target="_blank">Practica 1 en pdf</a>
+<br/>
+<a href="doc/Enunciado de la practica1.docx" title="Enunciado en otro formato de la práctica 1" target="_blank">Practica 1 en otro formato</a>
+</section>
+
+</br>
+
+
+<section id=tarea4>
+<h1>Práctica 4</h1>
+<a href="pdf/Enunciado de la practica1.pdf" title="Enunciado" target="_blank">Practica 1 en pdf</a>
+<br/>
+<a href="doc/Enunciado de la practica1.docx" title="Enunciado-" target="_blank">Practica 1 en formato docx</a>
+<br/>
+<a href="odt/Enunciado de la practica1.odt" title="Descripción del Enunciado" target="_blank">Practica 1 en formato odt</a>
+
+</section>
+
+</br>
+    
+
+</body>
+</html>

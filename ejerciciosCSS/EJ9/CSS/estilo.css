@@ -1,0 +1,37 @@
+form {
+    width: 800px;
+    background-color: slategray;
+    border: 1px solid  rgba(176,196,222, 0.1);
+}
+
+form input, textarea, select, button {
+    font-size: 12px;
+    font-family: 'Comic Sans MS';
+}
+
+legend::first-letter {
+    color: rgb(259,106,27);
+    font-size: 20px;
+}
+
+input:focus {
+    background-color: lightgreen;
+}
+
+textarea:focus:hover {
+    background-color: lightblue;
+}
+
+input[type="radio"]:disabled {
+    background-color: #ddd;
+    opacity: 0.7;
+}
+
+input:disabled {
+    background-color: #ddd;
+}
+
+input[value="Entrar"]:active {
+    background-color: green;
+    color: white;
+}
